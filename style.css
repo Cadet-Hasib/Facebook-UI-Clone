@@ -5,6 +5,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.Logo{
+    display: flex;
+}
+
+.Search{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.Search input{
+    background-color: #eff2f5;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
 .Logo img{
     width: 40px;
 }
@@ -13,7 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
-    line-height: 72px;
+    margin: 10px 0;
 }
 
 .header__left{
@@ -25,11 +43,35 @@ i{
 }
 
 .header__middle i{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.header__middle i.active{
+    border-bottom: 3px solid #008cff;
+    color: #008cff;
+    border-radius: 0;
+    pointer-events: none;
+}
+
+.header__middle i:hover{
+    color: #008cff;
+    background-color: #f5f3f3;
+    border-radius: 10px;
 }
 
 .header__right i{
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__right i:hover{
+    background-color: #f5f3f3;
+    padding: 10px;
+    border-radius: 50%;
 }
