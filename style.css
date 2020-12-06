@@ -1,8 +1,18 @@
+/** General Styling Start */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+/** General Styling End */
+
+/** Header Start */
+
+header{
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
 }
 
 .Logo{
@@ -33,7 +43,6 @@ nav{
     justify-content: space-between;
     max-width: 1000px;
     margin: 10px;
-    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
 }
 
 .header__left{
@@ -77,3 +86,31 @@ i{
     padding: 10px;
     border-radius: 50%;
 }
+
+/** Header End */
+
+/** Home Start */
+
+/* Sidebar Start */
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: #eff2f5;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.info h4{
+    margin-left: 10px;
+}
+
+.info img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Sidebar End */
+
+/** Home End */
