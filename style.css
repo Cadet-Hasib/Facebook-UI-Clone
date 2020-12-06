@@ -11,7 +11,7 @@
 
 .Search{
     margin-left: 10px;
-    margin-top: 7px;
+    margin-top: 0px;
 }
 
 .Search input{
@@ -25,13 +25,15 @@
 
 .Logo img{
     width: 40px;
+    margin-left: 20px
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 10px 0;
+    margin: 10px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
 }
 
 .header__left{
@@ -39,7 +41,7 @@ nav{
 }
 
 i{
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .header__middle i{
