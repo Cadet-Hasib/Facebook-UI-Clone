@@ -91,15 +91,25 @@ i{
 
 /** Home Start */
 
+.Home{
+    display: flex;
+}
+
 /* Sidebar Start */
+
+.sidebar{
+    background-color: #eff2f5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 25%;
+}
 
 .info{
     display: flex;
     align-items: center;
-    margin-left: 10px;
-    background-color: #eff2f5;
-    padding: 20px;
     border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 .info h4{
@@ -109,6 +119,23 @@ i{
 .info img{
     width: 50px;
     border-radius: 50%;
+}
+
+.a_component{
+    display: flex;
+    padding: 10px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.a_component:hover{
+    color: #008cff;
+    background-color: #eeeeee;
+    border-radius: 40px;
+}
+
+.a_component h4{
+    margin-left: 20px;
 }
 
 /* Sidebar End */
